@@ -4,11 +4,11 @@ Es una clase generadora de archivos XLS a partir de una matriz asociativa unidim
 
 Está diseñado para trabajar no solo como componente de [Ligne Framework PHP](https://github.com/itsalb3rt/ligne_php "Ligne Framework PHP"), también puede ser incluido en cualquier proyecto, tomando en cuenta que debe cambiarse el `namespace` del mismo.
 
-### Instalación;
+### Instalación 🚀
 
 Clonar este repositorio y copiar en el directorio `CORE\UTIL `de tu proyecto en Ligne.
 
-### Usos
+### Usos 📚 
 
 
 **Para el ejemplo usaremos este array de 5 usuarios.**
@@ -81,11 +81,11 @@ $xls = new XlsGenerator($array);
  var_dump($xls->getXls());
 ```
 
-**Resultado:**
+**Resultado 👓**
 
 [![](https://i.imgur.com/9HBIpuj.png)](https://i.imgur.com/9HBIpuj.png)
 
-**Opciones;**
+**Opciones; ⚙**
 
 El constructor de la clase también recibe ciertas opciones que te permiten decidir que obtener;
 
@@ -105,7 +105,7 @@ En este ejemplo omitiremos el campo `phone`
 $xls = new XlsGenerator($array,['phone'],false,true);
 var_dump($xls->getXls());
 ```
-**Resultado**
+**Resultado 👓**
 
 [![](https://i.imgur.com/n8rZ1z4.png)](https://i.imgur.com/n8rZ1z4.png)
 
