@@ -3,13 +3,13 @@
 Es una clase generadora de archivos XLS a partir de una matriz asociativa unidimensional, esto tiene la flexibilidad de poder utilizarse no solo para descargar archivos si no también para presentar tablas de datos.
 
 
-### Instalación;
+### Instalación 🚀
 
 ```bash
 $ composer require 
 ```
 
-### Usos
+### Usos 📚 
 
 
 **Para el ejemplo usaremos este array de 5 usuarios.**
@@ -82,11 +82,11 @@ $xls = new XlsGenerator($array);
  var_dump($xls->getXls());
 ```
 
-**Resultado:**
+**Resultado 👓**
 
 [![](https://i.imgur.com/9HBIpuj.png)](https://i.imgur.com/9HBIpuj.png)
 
-**Opciones;**
+**Opciones; ⚙**
 
 El constructor de la clase también recibe ciertas opciones que te permiten decidir que obtener;
 
@@ -106,7 +106,7 @@ En este ejemplo omitiremos el campo `phone`
 $xls = new XlsGenerator($array,['phone'],false,true);
 var_dump($xls->getXls());
 ```
-**Resultado**
+**Resultado 👓**
 
 [![](https://i.imgur.com/n8rZ1z4.png)](https://i.imgur.com/n8rZ1z4.png)
 
