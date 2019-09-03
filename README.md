@@ -2,11 +2,12 @@
 
 Es una clase generadora de archivos XLS a partir de una matriz asociativa unidimensional, esto tiene la flexibilidad de poder utilizarse no solo para descargar archivos si no también para presentar tablas de datos.
 
-Está diseñado para trabajar no solo como componente de [Ligne Framework PHP](https://github.com/itsalb3rt/ligne_php "Ligne Framework PHP"), también puede ser incluido en cualquier proyecto, tomando en cuenta que debe cambiarse el `namespace` del mismo.
 
 ### Instalación;
 
-Clonar este repositorio y copiar en el directorio `CORE\UTIL `de tu proyecto en Ligne.
+```bash
+$ composer require 
+```
 
 ### Usos
 

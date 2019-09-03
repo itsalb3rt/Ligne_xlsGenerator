@@ -1,0 +1,13 @@
+{
+    "name": "ligne/xls-generator",
+    "description": "XLS generator from array",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert E. Hidalgo Taveras",
+            "email": "itsalb3rt@gmail.com"
+        }
+    ],
+    "require": {}
+}

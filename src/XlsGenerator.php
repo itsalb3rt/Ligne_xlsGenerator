@@ -6,7 +6,7 @@
  * Github: https://github.com/itsalb3rt
  */
 
-namespace Core\Util\XlsGenerator;
+namespace Ligne;
 
 
 class XlsGenerator
