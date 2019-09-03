@@ -9,5 +9,12 @@
             "email": "itsalb3rt@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Ligne\\": "src"
+      }
+    }
 }
