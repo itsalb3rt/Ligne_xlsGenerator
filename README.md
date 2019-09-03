@@ -6,7 +6,7 @@ Es una clase generadora de archivos XLS a partir de una matriz asociativa unidim
 ### Instalación 🚀
 
 ```bash
-$ composer require 
+$ composer require ligne/xls-generator
 ```
 
 ### Usos 📚 
